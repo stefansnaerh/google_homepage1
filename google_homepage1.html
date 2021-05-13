@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <head>
     <style>
+        .mydiv {
+            text-align: center;
+
+        }
+
+
        .center {
             display:block;
             margin-left: auto;
@@ -12,10 +18,23 @@
         
 
         .searchbar {
-            position: absolute;
-            top: 40%;
-            left: 44%;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2%;
+            width: 25%;
+            border-radius: 25px;
+            
         }
+        
+        .buttons {
+            text-align: center;
+            display: inline-flexbox;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1%;
+        }
+        
         </style>
 
     <title> Google Homepage</title>
@@ -23,10 +42,10 @@
 </head>
 <body>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" class="center">
-
+<div class="mydiv">
     <input type=text placeholder="" class="searchbar">
 
-        <button type=button>Google Search</button>
-    <button type=button>I´m feeling lucky</button>
-
+        <button type=button class="buttons">Google Search</button>
+    <button type=button class="buttons">I´m feeling lucky</button>
+</div>  
 </body>
