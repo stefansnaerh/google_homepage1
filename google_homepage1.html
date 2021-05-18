@@ -13,9 +13,10 @@ li {
     margin-right: 10px;
 }
 
-.navigationbar {
+.navigationbartop {
     margin-left: 10px;
     margin-right: 10px;
+    color: black;
 }
 
         .mydiv {
@@ -51,6 +52,18 @@ li {
             margin-right: auto;
             margin-top: 1%;
         }
+
+        .footer {
+            position: fixed;
+            padding: 5px;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            background: lightgray;
+            color: black;
+    
+
+        }
         
         </style>
 
@@ -59,11 +72,11 @@ li {
 </head>
 
 <ul>
-    <li><a href="about.asp" class="navigationbar">About</a></li>
-    <li><a href="store.asp" class="navigationbar">Store</a></li>
+    <li><a href="about.asp" class="navigationbartop">About</a></li>
+    <li><a href="store.asp" class="navigationbartop">Store</a></li>
     <button type="button" style="float:right" class="signinbutton">Sign in</button>
-    <li style="float:right"><a href="images" class="navigationbar">Images</a></li>
-    <li style="float:right"><a href="gmail.asp" class="navigationbar">Gmail</a></li>
+    <li style="float:right"><a href="images" class="navigationbartop">Images</a></li>
+    <li style="float:right"><a href="gmail.asp" class="navigationbartop">Gmail</a></li>
     
 </ul>
 
@@ -75,4 +88,9 @@ li {
         <button type=button class="buttons">Google Search</button>
     <button type=button class="buttons">I´m feeling lucky</button>
 </div>  
+<footer id="footer">
+    <li><a href="advertising.asp" class="footer">Advertising</a></li>
+    <li><a href="business.asp" class="footer">Business</a></li>
+    <li><a href="howsearchworks.asp" class="footer">How Search works</a></li>
+</footer>
 </body>
